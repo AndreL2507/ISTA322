@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	.wrapper {
+    display: grid;
+       grid-template-columns: * * * *;
+       grid-template-rows: 100px 50px 700px 50px 100px ;
+}
+
+	.demo {
+		border: solid black 3px;
+		}
+		
+		#a {
+		 grid-column-start: 1;
+         grid-column-end: 4;
+		 text-align: center;
+		 background-color: #6cffff;
+		}
+		#b {
+		 grid-column-start: 1;
+         grid-column-end: 4;
+		 text-align: center;
+		  background-color: #ffff24;
+		 }
+		#c {
+		grid-row-start: 3;
+		grid-row-end: 4;
+		 background-color: #24ff24;
+		}
+		#d {
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-end: 4;
+		background-color: #ff2424;
+		}
+		#e {
+		grid-row-start: 4;
+		grid-row-end: 5;
+		grid-column: 1/4;
+		text-align: center;
+		background-color: #ff2492;
+		}
+		#f {
+		grid-row-start: 5;
+		grid-row-end: 6;
+		grid-column: 1/4;
+		text-align: center;
+		background-color: #a2a2a2;
+		}
+		
+		
+	</style>
+	</head>
+	<body>
+		<!---<h1> Grid Example </h1>-->
+		<div class="wrapper">
+  <div class = "demo" id = "a">
+  Header
+  </div> 
+  <div class = "demo" id = "b">
+  Top Menu
+  </div>
+  <div class = "demo" id = "c">
+  Side
+  </div>
+  <div class = "demo" id = "d">
+  Content
+  </div>
+  <div class = "demo" id = "e">
+  Bottom Menu
+  </div>
+  <div class = "demo" id = "f">
+  Foot
+  </div>
+</div>
+	</body>
+<html>	
