@@ -1,0 +1,47 @@
+html {
+		margin: 36px;
+		border: 2px #333333 solid;
+		padding: 24px;
+		background-color: #eeeeff;
+		color: #ffffff;
+		font-family: serif;
+		background-image: url("htmlbackground.jpg");
+		
+		}
+		
+	h1 {
+		color: #ffffff;
+		background-color: #25383c;
+		text-align: center;
+		word-spacing: 12px;
+	}
+	h2 {
+		border-style: groove; 
+		border-width: 4px;
+		border-color: red;
+		padding: 4px;
+		margin: 20px;
+		text-align: center;
+		letter-spacing: 2px;
+		}
+		
+		span.name {
+		font-weight: 900;
+		font-style: italic;
+		}
+	p {
+		text-indent: 1%;
+		}
+		
+		
+	a.on {
+	border-style: inset;
+	background-color: #000000;
+	color: #ffffff;
+	}
+
+	a.off {
+	border-style: outset;
+	background-color: #b4b4b4;
+	color: ee82ee;
+	}

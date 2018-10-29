@@ -1,0 +1,12 @@
+
+.on {
+border-style: inset;
+background-color: #000000;
+color: #ffffff;
+}
+
+.off {
+border-style: outset;
+background-color: #b4b4b4;
+color: ee82ee;
+}
